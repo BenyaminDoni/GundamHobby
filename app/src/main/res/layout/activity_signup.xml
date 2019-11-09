@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="70dp"
         tools:srcCompat="@tools:sample/avatars[0]" />
 
     <EditText
@@ -22,23 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"
-        android:hint="Nomor Telepon atau Email" />
-
-    <EditText
-        android:id="@+id/namaTxt"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_gravity="center"
-        android:hint="Nama Lengkap" />
-
-    <EditText
-        android:id="@+id/usernameTxt"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_gravity="center"
-        android:hint="Username" />
+        android:hint="Email" />
 
     <EditText
         android:id="@+id/editPass"
