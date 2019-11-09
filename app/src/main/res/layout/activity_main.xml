@@ -68,7 +68,7 @@
             android:text="Belum punya akun?" />
 
         <Button
-            android:id="@+id/btnBack"
+            android:id="@+id/btnSignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
