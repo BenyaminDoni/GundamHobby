@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "66790530440",
+    "firebase_url": "https://gundamhobby-7df16.firebaseio.com",
+    "project_id": "gundamhobby-7df16",
+    "storage_bucket": "gundamhobby-7df16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66790530440:android:82919f01540e5c65f9ae3d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66790530440-38su9ns10iten1orq07p7p7fj8kku49t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDFQjqPcMK0z0_ODsE1WJpaFPnvbDK4vY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66790530440-38su9ns10iten1orq07p7p7fj8kku49t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
