@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:layout_marginBottom="70dp"
         tools:srcCompat="@tools:sample/avatars[0]" />
 
@@ -33,6 +33,17 @@
         android:layout_gravity="center"
         android:hint="Password"
         android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLupapass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_blue_light"
+        android:text="Lupa password ?" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -56,10 +67,12 @@
             android:text="Belum punya akun?" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/holo_blue_light"
             android:text="Sign Up" />
     </LinearLayout>
 

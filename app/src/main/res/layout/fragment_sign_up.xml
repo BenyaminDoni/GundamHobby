@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:layout_marginBottom="50dp"
             tools:srcCompat="@tools:sample/avatars[0]" />
 
@@ -74,10 +74,12 @@
                 android:text="Sudah punya akun?" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/holo_blue_light"
                 android:text="Sign In" />
         </LinearLayout>
 
