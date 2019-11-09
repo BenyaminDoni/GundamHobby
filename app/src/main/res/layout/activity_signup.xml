@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    tools:context=".SignupActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -14,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
-        android:layout_marginBottom="70dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_marginBottom="50dp"
+        tools:srcCompat="@tools:sample/avatars[0]" />
 
     <EditText
         android:id="@+id/emailTxt"
@@ -23,7 +22,23 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"
-        android:hint="Email" />
+        android:hint="Nomor Telepon atau Email" />
+
+    <EditText
+        android:id="@+id/namaTxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:hint="Nama Lengkap" />
+
+    <EditText
+        android:id="@+id/usernameTxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:hint="Username" />
 
     <EditText
         android:id="@+id/editPass"
@@ -36,23 +51,12 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/btnLupapass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="75dp"
-        android:background="@android:color/transparent"
-        android:textColor="@android:color/holo_blue_light"
-        android:text="Lupa password ?" />
-
-    <Button
         android:id="@+id/btnLogin"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="70dp"
-        android:text="Sign In" />
+        android:layout_marginBottom="50dp"
+        android:text="Sign Up" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -65,17 +69,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Belum punya akun?" />
+            android:text="Sudah punya akun?" />
 
         <Button
-            android:id="@+id/btnSignup"
+            android:id="@+id/btnBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:textColor="@android:color/holo_blue_light"
-            android:text="Sign Up" />
+            android:text="Sign In" />
     </LinearLayout>
-
 
 </LinearLayout>
