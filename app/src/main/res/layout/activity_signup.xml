@@ -12,8 +12,8 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
         tools:srcCompat="@drawable/gundam_projek_andro_logo" />
 
     <EditText

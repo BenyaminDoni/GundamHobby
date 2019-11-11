@@ -13,8 +13,8 @@
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
         tools:srcCompat="@drawable/gundam_projek_andro_logo" />
 
     <EditText
@@ -66,8 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Not registered? Sign Up here"
-            android:textColor="@android:color/holo_blue_light"/>
-
+            android:textColor="@android:color/holo_blue_light" />
     </LinearLayout>
 
 
