@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnSignIn;
     TextView tvSignUp;
     FirebaseAuth mFirebaseAuth;
+    ImageView v;
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
     @Override
@@ -31,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        ImageView v = (ImageView) findViewById(R.id.imageView);
+        v.setImageResource(R.drawable.gundam_projek_andro_logo);
         mFirebaseAuth = FirebaseAuth.getInstance();
         emailId = findViewById(R.id.emailTxt);
         password = findViewById(R.id.passTxt);
