@@ -1,6 +1,9 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,5 +32,37 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intToMain);
             }
         });
+    }
+
+    public void loadFragmentOne(View v) {
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+
+        Fragment fragment1 = fragmentManager.findFragmentByTag("fragOne");
+
+        if (fragment1 == null) {
+            fragment1 = new ListFragment();
+        }
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.mainFrag, fragment1, "fragOne");
+        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+        transaction.addToBackStack(null);
+        transaction.commit();
+    }
+
+    public void loadFragmentTwo(View v) {
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+
+        Fragment fragment2 = fragmentManager.findFragmentByTag("fragTwo");
+
+        if (fragment2 == null) {
+            fragment2 = new WishFragment();
+        }
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.mainFrag, fragment2, "fragTwo");
+        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+        transaction.addToBackStack(null);
+        transaction.commit();
     }
 }
