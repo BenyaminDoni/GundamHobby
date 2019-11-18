@@ -23,7 +23,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"
-        android:hint="Email" />
+        android:hint="Email"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"/>
 
     <EditText
         android:id="@+id/passTxt"
@@ -33,7 +35,9 @@
         android:ems="10"
         android:layout_gravity="center"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"/>
 
     <Button
         android:id="@+id/btnLupapass"

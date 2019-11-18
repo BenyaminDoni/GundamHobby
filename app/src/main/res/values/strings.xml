@@ -18,8 +18,4 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 
-    <string name="tab_text_1">About</string>
-    <string name="tab_text_2">Mahasiswa</string>
-    <string name="tab_text_3">Matakuliah</string>
-
 </resources>
