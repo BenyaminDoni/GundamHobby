@@ -4,12 +4,39 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/txtTab2"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Ini Adalah Tab Wishlist"
-        android:textSize="20dp" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtTab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Ini Adalah Tab Wishlist"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtTab2-2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Ini Adalah Tab Wishlist"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtTab2-3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Ini Adalah Tab Wishlist"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
