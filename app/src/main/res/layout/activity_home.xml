@@ -7,42 +7,23 @@
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
-    <LinearLayout
+    <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:background="@color/colorPrimary"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="@color/colorAccent"
+        android:id="@+id/tabLayout_id">
 
-        <Button
-            android:id="@+id/btnTap1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:layout_marginRight="1dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:onClick="loadFragmentOne"
-            android:text="List Gundam"
-            android:textColor="#FFFFFF" />
+    </com.google.android.material.tabs.TabLayout>
 
-        <Button
-            android:id="@+id/btnTab2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
-            android:layout_weight="1"
-            android:background="@color/colorPrimary"
-            android:onClick="loadFragmentTwo"
-            android:text="Wish List"
-            android:textColor="#FFFFFF" />
-
-    </LinearLayout>
-
-    <FrameLayout
-        android:id="@+id/mainFrag"
+    <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
-        android:layout_height="450dp"
-        android:layout_gravity="top" >
-    </FrameLayout>
+        android:layout_height="400dp"
+        android:id="@+id/viewPager_id">
+
+    </androidx.viewpager.widget.ViewPager>
 
     <TextView
         android:id="@+id/textView2"
