@@ -7,7 +7,7 @@
     android:layout_marginTop="10dp">
 
     <ImageView
-        android:layout_width="56dp"
+        android:layout_width="106dp"
         android:layout_height="56dp"
         android:id="@+id/img_list"
         android:src="@drawable/gundam_projek_andro_logo">
@@ -41,20 +41,6 @@
             android:text="Price"
             android:id="@+id/price_list">
         </TextView>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp">
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@drawable/ic_book"
-            android:id="@+id/book_list">
-        </ImageView>
 
     </LinearLayout>
 

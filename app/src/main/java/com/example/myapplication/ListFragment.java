@@ -37,17 +37,14 @@ public class ListFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
         lstList = new ArrayList<>();
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
-        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("RX-78-2 Gundam","High Grade","Rp 180.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("RX-178 Gundam MK-II","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("RX-78-6 Gundam Mudrock","High Grade","Rp 270.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("RX-78-GP01 Gundam Zephyrantes","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("RX-78-GP02 Gundam Physalis","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("MS-06 Zaku II","High Grade","Rp 220.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("MS-09 Dom","High Grade","Rp 180.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("MS-07 Gouf","High Grade","Rp 210.000",R.drawable.gundam_projek_andro_logo));
+        lstList.add(new com.example.myapplication.List("RX-0 Unicorn Gundam","High Grade","Rp 240.000",R.drawable.gundam_projek_andro_logo));
     }
 }
