@@ -23,7 +23,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="40dp"
         android:textSize="17dp"
-        android:text="Silahkan isi email pada field dibawah ini" />
+        android:text="Silahkan isi email pada field dibawah ini :" />
 
 
     <EditText

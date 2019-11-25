@@ -20,7 +20,7 @@
 
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="500dp"
         android:id="@+id/viewPager_id">
 
     </androidx.viewpager.widget.ViewPager>
@@ -30,8 +30,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
         android:text="Welcome! You are logged in" />
 
     <Button

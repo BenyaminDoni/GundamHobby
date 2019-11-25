@@ -102,14 +102,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*btnLupapass = (Button) findViewById(R.id.btnLupapass);
+        btnLupapass = (Button) findViewById(R.id.btnLupapass);
         btnLupapass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(this,LupapassActivity.class);
+                Intent intent = new Intent(MainActivity.this, LupapassActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
     }
 
     @Override
