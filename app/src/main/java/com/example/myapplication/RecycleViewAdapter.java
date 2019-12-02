@@ -40,6 +40,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
         holder.tv_grade.setText(nData.get(position).getGrade());
         holder.tv_price.setText(nData.get(position).getPrice());
         holder.img.setImageResource(nData.get(position).getPhoto());
+        holder.img.setTag(nData.get(position).getPhoto());
     }
 
     @Override
@@ -68,7 +69,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
                     intent.putExtra("namaProduk",tv_name.getText().toString());
                     intent.putExtra("grade",tv_grade.getText().toString());
                     intent.putExtra("harga",tv_price.getText().toString());
-                    intent.putExtra("gambar",(Integer)img.getTag());
+                    intent.putExtra("idGambar",(Integer)img.getTag());
                     view.getContext().startActivity(intent);
                 }
             });
