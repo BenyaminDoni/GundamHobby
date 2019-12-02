@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,6 +60,19 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
             tv_grade = (TextView) itemView.findViewById(R.id.grade_list);
             tv_price = (TextView) itemView.findViewById(R.id.price_list);
             img = (ImageView) itemView.findViewById(R.id.img_list);
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent=new Intent(view.getContext(),DetailProdukActivity.class);
+                    intent.putExtra("namaProduk",tv_name.getText().toString());
+                    intent.putExtra("grade",tv_grade.getText().toString());
+                    intent.putExtra("harga",tv_price.getText().toString());
+                    intent.putExtra("gambar",(Integer)img.getTag());
+                    view.getContext().startActivity(intent);
+                }
+            });
+
         }
     }
 }
